@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('insert_emp/',insert_emp,name='insert_emp'),
     path('emp_salgrade/',emp_salgrade,name='emp_salgrade'),
+    path('selfjoins/',selfjoins,name='selfjoins'),
 ]
